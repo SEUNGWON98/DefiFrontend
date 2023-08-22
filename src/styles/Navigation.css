@@ -1,0 +1,60 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+}
+
+.menu {
+  display: flex;
+}
+
+.menu > div {
+  margin-right: 10px;
+  font-weight: 800;
+  font-size: 18px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  padding: 3px 8px 3px 8px;
+}
+
+.logo_box {
+  display: flex;
+}
+
+.logo {
+  height: 45px;
+  width: 45px;
+}
+
+.connect_wallet {
+  width: 150px;
+  height: 35px;
+  background-color: rgb(146, 84, 84);
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 5px;
+}
